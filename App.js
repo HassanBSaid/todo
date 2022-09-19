@@ -4,7 +4,7 @@ function addTodo(){
     const value = inputElement.value;
 
     const todoContainer = document.createElement('div');
-    todoContainer.className = 'flex justify-between items-center';
+    todoContainer.classList.add('flex','justify-between','items-center');
     const todoTitle = document.createElement('h4');
     todoTitle.textContent = value;
     const doneButton = document.createElement('button');
