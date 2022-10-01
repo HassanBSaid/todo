@@ -21,21 +21,21 @@
 
             <div class="flex justify-between items-center">
                 <h4>Todo 1</h4>
-                <button class="bg-green-500 p-2 rounded-lg">Done</button>
+                <button class="bg-green-500 p-2 rounded-lg" onclick="markAsDone(event)">Done</button>
              </div>
              <div class="flex justify-between items-center">
                 <h4>Todo 2</h4>
-                <button class="bg-green-500 p-2 rounded-lg">Done</button>
+                <button class="bg-green-500 p-2 rounded-lg" onclick="markAsDone(event)">Done</button>
              </div>
              <div class="flex justify-between items-center">
                 <h4>Todo 3</h4>
-                <button class="bg-green-500 p-2 rounded-lg">Done</button>
+                <button class="bg-green-500 p-2 rounded-lg" onclick="markAsDone(event)">Done</button>
              </div>
          </div>
          <hr class="my-4">
 
         <div class="px-5 flex gap-x-2">
-            <input type="text" class="py-2 px-4 text-gray-700 rounded-lg flex-1" placeholder="New Todo">
+            <input type="text" class="py-2 px-4 text-gray-700 rounded-lg flex-1 outline-none ring-2 focus:ring-4" placeholder="New Todo">
             <button class="bg-yellow-500 p-2 rounded-lg shadow-lg" onclick="addTodo()">Add</button>
         </div>
         
